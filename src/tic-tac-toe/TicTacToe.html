@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="TicTacToe.css" rel="stylesheet" />
+        <!--Polyfill pentru suport classList in IE <= 9. Sursa: https://github.com/eligrey/classList.js -->
+        <script src="../../external/polyfills/classList.min.js"></script>
+        <!--Requirejs pentru module loading. Sursa: http://requirejs.org/. Va incarca fisierul main.js -->
+        <script data-main="main" src="../../external/requirejs/require.js"></script>
+    </head>
+    <body>
+
+        <div id="game1">
+            <div class="hud clearfix">
+                <div class="status-info"></div>
+                <button class="reset-btn">Reset</button>
+            </div>
+            <div class="board-container">
+                <table class="board"></table>
+            </div>
+        </div>
+
+    </body>
+</html>
