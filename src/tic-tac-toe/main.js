@@ -23,6 +23,12 @@ requirejs([
     var gameNode = document.getElementById('game1');
     var game = new Game(gameNode, 3, [new AI("X"), new Human("O"), new AI("♥", new ExhaustivePlayStrategy())]);
 
+
+    //Navigheaza catre pagina de prezentare a meniului contextual
+    var nextBtn = document.getElementsByClassName("next-btn")[0];
+    nextBtn.addEventListener("click", function () {
+        window.location.href = "../context-menu/index.html";
+    });
 });
 
 

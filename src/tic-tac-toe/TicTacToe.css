@@ -6,7 +6,7 @@ body {
 
 .hud {
     margin-bottom: 10px;
-    width: 256px;
+    width: 388px;
 }
 
 .hud .status-info {
@@ -14,7 +14,7 @@ body {
     margin-top: 6px;
 }
 
-.hud .reset-btn {
+.hud .btn {
     float: right;
     background-color: #3F51B5;
     color: #ecf0f1;
@@ -26,6 +26,15 @@ body {
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.hud .reset-btn {
+    background-color: #3F51B5;
+}
+
+.hud .next-btn {
+    background-color: #00C853;
+    margin-left: 4px;
 }
 
 /* Rolul contianerului este de a afisa umbrele pe IE si Edge deoarece nu suporta box shadow pe elemente cu display: table */
